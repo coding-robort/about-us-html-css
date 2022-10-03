@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us by Robort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+
+
+<body>
+    <section class="main-box">
+
+        <header>
+            <img src="imgs/logo.png" class="logo" alt="logo">
+            <nav>
+                <i id="menu" onclick="openMenu()" class='bx bx-menu-alt-right bx-md'></i>
+                <i id="close" onclick="closeMenu()" class='bx bx-x bx-md'></i>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="active" href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Work with us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div onclick="closeMenu()" id="navCard" class="mobile-nav-card">
+            <div class="menus">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="active" href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Work with us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <section class="top-box">
+            <h1>Who we are.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odio quod praesentium quidem laborum atque
+                <br>
+                laboriosam, officia optio provident? Fugit accusantium non vero? Unde, debitis.
+            </p>
+        </section>
+        <section class="middle-box">
+
+            <div class="user-box">
+                <img src="imgs/user.jpg" alt="user1">
+                <p class="name">Harvey Ruiz</p>
+                <p class="role">
+                    -- Chief Director
+                </p>
+                <p class="about">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis reprehenderit culpa exercitationem
+                    ullam
+                    molestias minus facilis! Molestias aperiam ipsum necessitatibus?
+                </p>
+            </div>
+            <div class="user-box">
+                <img src="imgs/user.jpg" alt="user1">
+                <p class="name">Harvey Ruiz</p>
+                <p class="role">
+                    -- Chief Director
+                </p>
+                <p class="about">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis reprehenderit culpa exercitationem
+                    ullam
+                    molestias minus facilis! Molestias aperiam ipsum necessitatibus?
+                </p>
+            </div>
+            <div class="user-box">
+                <img src="imgs/user.jpg" alt="user1">
+                <p class="name">Harvey Ruiz</p>
+                <p class="role">
+                    -- Chief Director
+                </p>
+                <p class="about">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis reprehenderit culpa exercitationem
+                    ullam
+                    molestias minus facilis! Molestias aperiam ipsum necessitatibus?
+                </p>
+            </div>
+            <div class="user-box">
+                <img src="imgs/user.jpg" alt="user1">
+                <p class="name">Harvey Ruiz</p>
+                <p class="role">
+                    -- Chief Director
+                </p>
+                <p class="about">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis reprehenderit culpa exercitationem
+                    ullam
+                    molestias minus facilis! Molestias aperiam ipsum necessitatibus?
+                </p>
+            </div>
+        </section>
+        <footer class="foot-box">
+            <p class="copyright">
+                Copyright 2018 Robort
+            </p>
+            <div class="s-box">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-youtube'></i>
+                <i class='bx bxl-instagram'></i>
+            </div>
+        </footer>
+
+        <!-- <div class="circle">
+
+        </div> -->
+        <img class="circle" src="imgs/circle.svg" alt="circle"> <svg xmlns="http://www.w3.org/2000/svg" width="544.061"
+            height="1080.424" viewBox="0 0 544.061 1080.424">
+            <g id="bg" transform="translate(0)">
+                <path id="Path_15" data-name="Path 15" d="M133.823,323.818,198.708-.424,543.788,0V1080H-.273Z"
+                    transform="translate(0.273 0.424)" fill="#112b88" />
+            </g>
+        </svg>
+    </section>
+    <script>
+
+        // get navMenu
+        let menu = document.getElementById("menu");
+        let navCard = document.getElementById("navCard");
+        let close = document.getElementById("close");
+
+
+        function openMenu() {
+            // show menu box and icon
+            navCard.style.display = "block";
+            menu.style.display = "none";
+            close.style.display = "block";
+
+        }
+
+        function closeMenu() {
+            // hide menu nav
+            navCard.style.display = "none";
+            close.style.display = "none";
+            menu.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
